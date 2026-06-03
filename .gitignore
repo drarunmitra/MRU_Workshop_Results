@@ -1,0 +1,15 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Quarto
+/.quarto/
+/_freeze/
+*_files/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.~lock.*
