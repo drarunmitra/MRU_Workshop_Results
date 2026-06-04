@@ -1,5 +1,6 @@
 ---
-title: "**Results** <br> Text, Tables & Figures"
+title: "**Results**"
+subtitle: "**Text, Tables & Figures**"
 author: "<br> Dr. Arun Mitra "
 institute: " ![](aiims_bibinagar_logo.png){width=5cm} <br> Three Day workshop on Manuscript Preparation & Research Communication <br> <br> 3 - 5 June, 2026"
 format:
@@ -15,23 +16,22 @@ revealjs-plugins:
 
 ## Contents
 
+::: {.incremental}
 -   The Methods–Results **mirror**
 -   Where data live: **text vs table vs figure**
 -   Reporting a result **fully**
 -   Tables & figures **by design**
 -   Activities · Checklist
+:::
 
-. . .
 
-<br>
-
-> *"Methods was the recipe. Results is the dish."*
+# *"Methods was the recipe. <br>Results is the dish."*
 
 ## Yesterday's recipe, today's dish
 
 ```{mermaid}
 %%| fig-width: 10
-%%| fig-height: 3
+%%| fig-height: 2
 %%| fig-responsive: true
 flowchart LR
   I[Introduction] --> M[Methods] --> R[Results] --> D[Discussion]
@@ -42,11 +42,11 @@ flowchart LR
 
 . . .
 
-::: {.callout-tip appearance="simple"}
-Results is where residents either **over-cook** (interpretation) or **under-plate** (data dump).
+::: {.callout-tip appearance="important"}
+Results is where we either **over-cook** (data dump) or **under-plate** (interpretation).
 :::
 
-## Results must mirror Methods, paragraph for paragraph
+## Results must mirror Methods
 
 ::::: columns
 ::: {.column width="50%"}
@@ -78,55 +78,46 @@ Lay the two sections side by side — they should **reflect**. Anything in Resul
 Kotz & Cals, J Clin Epidemiol 2013; Enago Academy.
 :::
 
-## By the end you can structure, decide, and report {.smaller}
+## Steps
 
 ::: {.callout-note appearance="simple"}
-### Objectives
+### 
+
+:::{.incremental}
 1.  **Structure** Results to mirror Methods
-2.  **Decide** — text vs table vs figure
-3.  **Report** stats fully — effect + CI + exact *P*
+2.  **Decide** whether as text vs table vs figure
+3.  **Report** stats fully: effect + CI + exact *P*
 4.  **Match** figure type to study design
+
+:::
 :::
 
 . . .
 
-Objective **3** is the commonest reviewer complaint on Indian submissions; objective **4** separates a generic paper from a design-literate one.
+- Step **3** is the commonest reviewer complaint on Indian submissions
+- Step **4** separates a generic paper from an intentionally designed one.
 
-## Three blocks, two activities, one checklist
 
-```{mermaid}
-%%| fig-width: 10
-%%| fig-height: 2.2
-%%| fig-responsive: true
-flowchart LR
-  B1["Block 1<br>Structure &amp; decision"] --> A1["⚡ Activity 1"]
-  A1 --> B2["Block 2<br>Tables &amp; figures"]
-  B2 --> A2["⚡ Activity 2"]
-  A2 --> B3["Block 3<br>Results by design"]
-  B3 --> C["✓ Checklist"]
-```
+## Structuring Results
 
-. . .
+. . . 
 
-::: {.callout-tip appearance="simple"}
-Two of you get to **shout answers** at me — it is a lecture hall, energy matters. We end with a one-page checklist worth photographing.
-:::
+The first Results paragraph is always participant flow
 
-# Block 1 {.inverse background-color="#1f5560"}
-
-### Structuring Results & deciding where data live
-
-## The first Results paragraph is always participant flow
+. . . 
 
 ::::: columns
-::: {.column width="55%"}
+::: {.column width="65%"}
+
+<br>
+
 -   Paragraph 1 = **who is in the analysis**
--   Screened → eligible → enrolled → analysed
+-   Screened → Eligible → Enrolled → Analysed
 -   Account for **every** participant
 -   Losses & exclusions, **with reasons**
 :::
 
-::: {.column width="45%"}
+::: {.column width="35%"}
 ```{mermaid}
 %%| fig-width: 4
 %%| fig-height: 4
@@ -140,15 +131,12 @@ flowchart TD
 :::
 :::::
 
-::: {.callout-note appearance="simple"}
-RCT → **CONSORT** flow · observational → **STROBE** flow · diagnostic → **STARD** flow. The diagram changes; the principle does not.
-:::
 
 :::{.aside}
 CONSORT 2010 Item 13a · STROBE Item 13 · STARD 2015 Item 19.
 :::
 
-## Every finding gets exactly one home — no triple-dipping
+## State Every Finding Only Once
 
 ::::: columns
 ::: {.column width="33%"}
@@ -182,29 +170,31 @@ The same numbers in a sentence, a table, **and** a chart inflates length and sig
 :::
 
 :::{.aside}
-ICMJE Recommendations · AMA Manual of Style · Enago · Editage.
+ICMJE Recommendations; AMA Manual of Style 
 :::
 
-## Read precisely → table · see instantly → figure · headline → text {.smaller}
+## Decision Time?
 
-| Data scenario | Best home |
+:::{.incremental}
+- Read precisely [→ table]{.fragment} 
+- See instantly [→ figure]{.fragment} 
+- Headline [→ text]{.fragment}
+:::
+
+
+
+## Where to place??
+
+
+| Data scenario | Where |
 |:---|:---|
 | One key number (a single prevalence / effect) | **Text** |
 | Baseline characteristics, many variables × groups | **Table** |
-| Participant flow (screened → analysed) | **Figure** (flow) |
-| Time-to-event / survival | **Figure** (K–M) |
-| Spread of a continuous variable | **Figure** (box/dot, **not** bar) |
+| Participant flow (screened → analysed) | **Figure**|
+| Spread of a continuous variable | **Figure** |
 | Many exact estimates readers may re-use | **Table** |
 
-. . .
 
-::: {.callout-tip appearance="simple"}
-**Numbers to read precisely → table. Patterns to see instantly → figure. Headlines → text. Nothing lives in two homes.**
-:::
-
-:::{.aside}
-Synthesis of ICMJE · AMA · SAMPL · Weissgerber 2015 · Tufte.
-:::
 
 ## A complete result has direction, magnitude, precision, and exact *P*
 
@@ -213,70 +203,78 @@ Synthesis of ICMJE · AMA · SAMPL · Weissgerber 2015 · Tufte.
 > **RR 0.66 (95% CI 0.48–0.91); *P* = 0.01**
 
 ::::: columns
+
+:::{.fragment}
 ::: {.column width="50%"}
--   **Direction** — which way ✓
--   **Magnitude** — how much ✓
+-   **Direction** - which way 
+-   **Magnitude** - how much 
+:::
 :::
 
+:::{.fragment}
 ::: {.column width="50%"}
--   **Precision** — the 95% CI ✓
--   **Exact *P*** — 0.01, not "< 0.05" ✓
+-   **Precision** - the 95% CI 
+-   *P value* - 0.01, not "< 0.05" 
+:::
 :::
 :::::
 
 . . .
 
 ::: {.important}
-*P* is the **adjunct**; the CI is the message. Never *"P = 0.000"* → report **P < 0.001**. AMA drops the leading zero → *P* = .01.
+*P* is the **adjunct**; the CI is the message.
+
+Never *"P = 0.000"* → report **P < 0.001**
 :::
 
-:::{.aside}
-SAMPL (Lang & Altman) · Greenland et al., Eur J Epidemiol 2016 · AMA 11th ed.
-:::
 
-## Three sentences a reviewer will flag {.smaller}
+## Three sentences a reviewer will flag
 
 ::: panel-tabset
 ### Data dump
 
-❌ *"The mean age was 42.3 years, 58% male, 31% smokers, 22% diabetic, 40% hypertensive, 18% CKD, BMI 26.4, HbA1c 7.8%…"*
+"The mean age was 42.3 years, 58% male, 31% smokers, 22% diabetic, 40% hypertensive, 18% CKD, BMI 26.4, HbA1c 7.8%…"*
 
 ::: {.fragment}
-✅ *"Participants had a mean age of 42 years and were predominantly male (58%); cardiometabolic comorbidity was common (Table 1)."*
+
+$$ \downarrow $$ 
+
+"Participants had a mean age of 42 years and were predominantly male (58%); cardiometabolic comorbidity was common (Table 1)."
 :::
 
 ### Interpretation creep
 
-❌ *"Mortality was higher in the control arm **because** dexamethasone suppresses the harmful inflammatory cascade."*
+"Mortality was higher in the control arm **because** dexamethasone suppresses the harmful inflammatory cascade."
 
 ::: {.fragment}
-✅ *"28-day mortality was lower in the dexamethasone arm (22.9% vs 25.7%)."* — mechanism is **Discussion**.
+
+
+$$ \downarrow $$ 
+
+
+"28-day mortality was lower in the dexamethasone arm (22.9% vs 25.7%)." 
+
+Mechanism is **Discussion**.
 :::
 
 ### Naked *p*-value
 
-❌ *"The intervention significantly reduced infection (p < 0.05)."*
+"The intervention significantly reduced infection (p < 0.05)."
 
 ::: {.fragment}
-✅ *"…reduced surgical-site infection by 6.2 points (12.1% vs 18.3%; RR 0.66, 95% CI 0.48–0.91; *P* = 0.01)."*
+
+
+$$ \downarrow $$ 
+
+"…reduced surgical-site infection by 6.2 points (12.1% vs 18.3%; RR 0.66, 95% CI 0.48–0.91; *P* = 0.01)."
 :::
 :::
 
-:::{.aside}
-Phase 2 Part A · Editage · Enago.
-:::
 
-## ⚡ Activity 1 — "Where does it go?" {.smaller}
 
-::: {.callout-important appearance="simple"}
-I read a scenario — you **shout** `TEXT! / TABLE! / FIGURE!` <br>
-No groups, no devices. First instinct.
-:::
+## ⚡  Question Time
 
-. . .
-
-I read; you call it out:
-
+:::{.incremental}
 1.  A single overall prevalence
 2.  Baseline characteristics, 12 variables × 2 groups
 3.  Survival over 24 months by arm
@@ -284,34 +282,25 @@ I read; you call it out:
 5.  Distribution of CRP in 30 patients
 6.  Three subgroup odds ratios *(deliberately ambiguous)*
 
-. . .
+:::
 
-Then **fix the sentence**: *"significant (p<0.05)"* · *"smoking caused lower birthweight"* (cross-sectional).
 
-## Activity 1 — answer key {.smaller}
+## Answers
 
-| # | Scenario | Home |
+| # | Scenario | Decision |
 |:--|:---|:---|
 | 1 | Single prevalence | **Text** |
 | 2 | Baseline characteristics | **Table** |
-| 3 | Survival by arm | **Figure** — K–M |
-| 4 | Participant flow | **Figure** — flow diagram |
-| 5 | CRP in 30 patients | **Figure** — dot/box, **not** bar |
+| 3 | Survival by arm | **Figure**|
+| 4 | Participant flow | **Figure** |
+| 5 | CRP in 30 patients | **Figure** |
 | 6 | Three subgroup ORs | **Table *or* forest plot** |
 
-. . .
 
--   *"p<0.05"* = **naked p-value** · *"caused"* = **causal language** (cross-sectional)
 
-::: {.callout-tip appearance="simple"}
-**#5** is the trap — a bar chart for 30 values hides the distribution. **#6** has no single right answer — pick by audience.
-:::
 
-# Block 2 {.inverse background-color="#1f5560"}
+## Tables
 
-### Table & figure principles, and which figure fits which design
-
-## Table 1 reports distribution-appropriate summaries — by variable type {.smaller}
 
 ::::: columns
 ::: {.column width="50%"}
@@ -325,28 +314,25 @@ Then **fix the sentence**: *"significant (p<0.05)"* · *"smoking caused lower bi
 ::: {.column width="50%"}
 | Characteristic | Arm A (n=105) | Arm B (n=108) |
 |:---|:--:|:--:|
-| Age, yr — mean ± SD | 54 ± 11 | 55 ± 10 |
-| LOS, d — median (IQR) | 8 (5–12) | 9 (6–13) |
-| Diabetes — n (%) | 31 (29.5) | 29 (26.9) |
+| Age, yr : mean ± SD | 54 ± 11 | 55 ± 10 |
+| LOS, d : median (IQR) | 8 (5–12) | 9 (6–13) |
+| Diabetes : n (%) | 31 (29.5) | 29 (26.9) |
 :::
 :::::
 
 ::: {.callout-note appearance="simple"}
-Don't put **mean ± SD** on length-of-stay — it is always right-skewed.
+Don't put **mean ± SD** on length-of-stay.  It is always right-skewed.
 :::
 
-:::{.aside}
-AMA 11th ed. · CONSORT Item 15 · STROBE Item 14.
-:::
 
-## *P*-values in Table 1 — no for RCTs, yes-ish for observational
+## *P*-values in Table 1 
 
 ::: panel-tabset
 ### RCT
 
 -   **NO** baseline *p*-values
 -   Randomisation handles balance by design
--   Any baseline difference **is** a chance difference — testing it answers a question no one asked
+-   Any baseline difference **is** a chance difference; testing it answers a question no one asked
 -   *CONSORT discourages it*
 
 ### Observational
@@ -360,11 +346,9 @@ AMA 11th ed. · CONSORT Item 15 · STROBE Item 14.
 The single most common Table 1 error in resident **RCT** manuscripts.
 :::
 
-:::{.aside}
-CONSORT 2010 Item 15 (E&E) · STROBE.
-:::
 
-## Match the figure type to the study design {.smaller}
+
+## Match the figure type to the study design =
 
 | Design | Key figures |
 |:---|:---|
@@ -376,17 +360,9 @@ CONSORT 2010 Item 15 (E&E) · STROBE.
 | RCT | CONSORT flow · K–M · forest · NNT |
 | Syst. review | PRISMA flow · forest · funnel |
 
-. . .
 
-::: {.callout-tip appearance="simple"}
-The **flow diagram** is the one universal. A K–M curve makes no sense for a cross-sectional study; an ROC belongs to diagnostic work. Find your row — that's your shortlist.
-:::
 
-:::{.aside}
-Synthesis 2 · CONSORT/STROBE/STARD/PRISMA conventions.
-:::
-
-## Maximise data-ink — if you squint, the message should survive
+## Maximise data-ink ratio
 
 ::::: columns
 ::: {.column width="50%"}
@@ -406,43 +382,9 @@ Synthesis 2 · CONSORT/STROBE/STARD/PRISMA conventions.
 :::
 :::::
 
-. . .
 
-::: {.callout-tip appearance="simple"}
-**The squint test** — blur your eyes; if the main message disappears, the figure is too busy. Build figures in R and you get clean defaults for free.
-:::
 
-:::{.aside}
-Tufte, *Visual Display of Quantitative Information* · Schriger & Cooper, Ann Emerg Med 2001.
-:::
-
-## For continuous data, dot/box plots beat bar charts
-
-::::: columns
-::: {.column width="50%"}
--   Bars hide the **distribution** and **n**
--   Wildly different data → **identical** bars
--   Show every point when n is small
-:::
-
-::: {.column width="50%"}
-::: {.callout-note appearance="simple"}
-A five-minute change in `ggplot`:
-
-`geom_jitter()` + a median crossbar instead of `geom_col()` + error bar.
-:::
-:::
-:::::
-
-::: {.important}
-Different datasets can produce the same bar-and-error-bar chart — the bar hides everything.
-:::
-
-:::{.aside}
-Weissgerber TL et al., PLOS Biology 2015;13(4):e1002128 (CC-BY).
-:::
-
-## Generate your figures in R — reproducible by design
+## Generate your figures to be reproducible by design
 
 ::: panel-tabset
 ### Kaplan–Meier
@@ -458,94 +400,19 @@ Weissgerber TL et al., PLOS Biology 2015;13(4):e1002128 (CC-BY).
 ![](images/forest_plot.png){fig-align="center" width="80%"}
 :::
 
-:::{.aside}
-Built in R with `ggplot2` + `pROC`; simulated, **seeded** data (`survminer`-free). The slide doubles as a reproducibility demo — no figure-permission worries.
-:::
 
-## ⚡ Activity 2 — "Pick the figure" then "Spot the table crime" {.smaller}
 
-::: {.callout-important appearance="simple"}
-**Part A** — 5 scenarios → name the best figure. **Part B** — spot the crimes in one bad table. Shout it out.
-:::
 
-::::: columns
-::: {.column width="50%"}
-**Part A**
 
-1.  Survival by arm over 3 years
-2.  Sens/spec across thresholds
-3.  Eight subgroup hazard ratios
-4.  Flow of 1,200 screened
-5.  District anaemia prevalence
-:::
 
-::: {.column width="50%"}
-**Part B — name the crimes**
-
--   no title · "Group 1/2" headers
--   mixed mean/median, unlabelled
--   inconsistent decimals
--   internal vertical rules
--   undefined "DM"
--   *p*-values on RCT baseline
-:::
-:::::
-
-## Activity 2 — answer key {.smaller}
-
-::::: columns
-::: {.column width="50%"}
-**Part A**
-
-1.  K–M curve
-2.  ROC curve
-3.  Forest plot
-4.  CONSORT flow
-5.  Ordered bar / map *(not pie)*
-:::
-
-::: {.column width="50%"}
-**Part B — crimes**
-
-no title · vague headers · mixed/unlabelled summaries · inconsistent decimals · vertical rules · undefined abbrev · **RCT baseline *p*-values**
-:::
-:::::
-
-::: {.callout-tip appearance="simple"}
-Figure type **follows design** (A); a table must be **self-contained & design-correct** (B). The RCT-baseline *p*-value is the gotcha — callback to two slides ago.
-:::
-
-# Block 3 {.inverse background-color="#1f5560"}
-
-### Same question, different design, different Results
-
-## Same question, different design, different Results {.smaller}
-
-Legend: ✓✓ critical · ✓ common · — n/a
-
-| Results element | Cross-sec | Case-ctrl | Cohort | Diagnostic | RCT |
-|:---|:--:|:--:|:--:|:--:|:--:|
-| Prevalence + 95% CI | ✓✓ | — | ~ | — | — |
-| Odds ratio (adj.) | ✓ | ✓✓ | — | — | — |
-| Risk / hazard ratio | ~ | — | ✓✓ | — | ✓ |
-| Sens / spec · ROC · 2×2 | — | — | — | ✓✓ | — |
-| ITT + NNT + harms | — | — | — | — | ✓✓ |
-| Person-time / follow-up | — | — | ✓✓ | — | ~ |
-
-. . .
-
-::: {.callout-tip appearance="simple"}
-Find your column. The same clinical question, asked under a different design, gives a **different Results section**.
-:::
-
-## Observational Results: prevalence, odds, person-time {.smaller}
+## Observational Results: prevalence, odds, person-time 
 
 ::: panel-tabset
 ### Cross-sectional
 
 -   **Prevalence + 95% CI**; adjusted ORs (aOR)
 -   **Weights / design effect** if clustered (NFHS-style)
--   Say *"associated with"* — **never** *"caused"*
+-   Say *"associated with"* ; **never** *"caused"*
 
 ### Case-control
 
@@ -557,14 +424,11 @@ Find your column. The same clinical question, asked under a different design, gi
 
 -   **Person-time**, incidence rates
 -   **Follow-up completeness & attrition** before the HR
--   HR + CI · K–M · acknowledge **competing risks**
+-   HR + CI · K-M · acknowledge **competing risks**
 :::
 
-:::{.aside}
-STROBE design-specific items.
-:::
 
-## Diagnostic Results: the 2×2, accuracy with CIs, and the ROC {.smaller}
+## Diagnostic Results: the 2×2, accuracy with CIs, and the ROC 
 
 ::::: columns
 ::: {.column width="48%"}
@@ -575,8 +439,8 @@ STROBE design-specific items.
 :::
 
 ::: {.column width="52%"}
--   Sens, Spec, PPV, NPV, LR± — **all with 95% CI**
--   **ROC + AUC** — the sens/spec trade-off
+-   Sens, Spec, PPV, NPV, LR± ; **all with 95% CI**
+-   **ROC + AUC** ; the sens/spec trade-off
 -   Report **indeterminate / failed** tests
 -   **STARD flow** accounts for everyone
 :::
@@ -586,83 +450,16 @@ STROBE design-specific items.
 Give the 2×2 explicitly so the reader can recompute anything. Accuracy varies with disease spectrum — report across it.
 :::
 
-:::{.aside}
-STARD 2015 (2×2, flow, accuracy items).
-:::
 
-## RCT Results: CONSORT flow, ITT first, absolute + relative, harms {.smaller}
+## Take Home Message
 
-::::: columns
-::: {.column width="50%"}
--   **CONSORT flow** + **CTRI** number
--   **ITT** primary; per-protocol = sensitivity
--   Report **absolute + relative** effect; NNT
--   **Harms** table · NI margin if applicable
--   **No** baseline *p*-values
-:::
 
-::: {.column width="50%"}
-::: {.callout-note appearance="simple"}
-### RECOVERY (NEJM 2021)
-99.6% follow-up · rate ratio **0.83 (0.75–0.93)** · subgroup forest plot · harms reported · **zero interpretation** in Results.
-:::
-:::
-:::::
+> Report what you found: **direction, magnitude, precision** and let the Discussion do the rest.
 
-::: {.important}
-A 2.8-point **absolute** reduction means more clinically than a bare relative risk. Indian trials must be **CTRI-registered** — editors look for it.
-:::
 
-:::{.aside}
-CONSORT 2010 Items 13–19 · RECOVERY, NEJM 2021;384:693–704.
-:::
+> Text vs Table vs Figure
 
-## One question, four designs, four Results paragraphs {.smaller}
-
-> **Q: Is diabetes associated with surgical-site infection?**
-
-::::: columns
-::: {.column width="50%"}
-**Cross-sectional** <br> prevalence of SSI by diabetes status; **aOR + CI**
-
-**Case-control** <br> odds of diabetes in SSI cases vs controls; **OR + CI**
-:::
-
-::: {.column width="50%"}
-**Cohort** <br> incidence over person-time; **HR + CI**; K–M
-
-**RCT** (glucose-control) <br> CONSORT flow; **ITT risk difference + NNT**
-:::
-:::::
-
-. . .
-
-::: {.callout-tip appearance="simple"}
-The clinical question never moved; the **design dictated the Results**. This is the slide to remember.
-:::
-
-:::{.aside}
-Synthesis 2 · designed cross-department example.
-:::
-
-## Your one-page Results checklist {.smaller}
-
-::: {.callout-note appearance="simple"}
-### Universal — every paper
-flow first · one home per finding · effect + CI + exact *P* · self-contained displays · cite every item in order · all pre-specified outcomes · **no interpretation**
-:::
-
-::: {.callout-note appearance="simple"}
-### By design
-Cross-sec → prevalence + CI, aOR · Case-control → OR, matched · Cohort → person-time, HR · Diagnostic → 2×2, ROC, indeterminate · RCT → CONSORT + CTRI, ITT, NNT, harms
-:::
-
-::: {.callout-tip appearance="simple"}
-**Resources** — EQUATOR-network.org · SAMPL (Lang & Altman) · Editage Insights · Enago Academy · AuthorAID
-:::
 
 # Questions?
 
-# Thank You! {.center}
-
-> Report what you found — **direction, magnitude, precision** — and let the Discussion do the rest.
+# Thank You! 
